@@ -19,8 +19,13 @@ reuses the SDK's shared matcher (`sdk.MatchAll`).
 
 ## How to use it
 
-Compose the plugin candy in a box or check bed's `candy:` list, then author the
-verb in a plan:
+Compose the plugin candy in a box or check bed's `candy:` list:
+
+```yaml
+- '@github.com/opencharly/plugin-mount/candy/plugin-mount:<tag>'
+```
+
+Then author the verb in a plan:
 
 ```yaml
 - check: /proc is mounted as proc
